@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
 
 * {
     box-sizing: border-box;
@@ -9,16 +7,22 @@
 }
 
 h1 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 32px;
     color: #000000;
     text-decoration: none;
 }
 
 h2 {
-    font-family: "Montserrat", sans-serif;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 26px;
     color: #05C46B;
     padding-bottom: 20px;
+}
+
+p {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
 }
 
 header {
@@ -36,10 +40,9 @@ div {
     padding-right: 20px;
 }
 
-
-
 button {
-    font-family: "Montserrat", sans-serif;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
     font-weight: 500;
     padding: 9px 25px;
     background-color: #05C46B;
@@ -51,5 +54,5 @@ button {
 }
 
 .image {
-    align-items: center;
+    display: block;
 }
