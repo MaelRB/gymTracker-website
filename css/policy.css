@@ -1,0 +1,89 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "Helvetica Neue";
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+}
+
+p {
+  margin: .5em 0;
+}
+
+.nav-container {
+  background: #05C46B;
+}
+
+.nav-container a {
+  color: white;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+header .logo {
+  font-weight: bold;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul a {
+  display: block;
+  padding: 0 1em;
+}
+
+header .social-icon {
+  width: 20px;
+  background: white;
+}
+
+.policy {
+  padding: 2em 4em;
+}
+
+.bottom-nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em 2em;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.bottom-nav {
+  font-weight: normal;
+  font-size: .85em;
+}
+/*# sourceMappingURL=policy.css.map */
