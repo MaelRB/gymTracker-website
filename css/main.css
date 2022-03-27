@@ -109,11 +109,12 @@ header .social-icon {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 1em;
+  width: 20%;
 }
 
 .hero-badge {
-  width: 150px;
-  margin: 0 20px;
+  width: 20%;
+  margin: 0 5%;
 }
 
 .features-list-item {
@@ -138,7 +139,7 @@ header .social-icon {
 
 .caption {
   font-weight: 100;
-  font-size: .5em;
+  font-size: .6em;
 }
 
 .bottom-nav-container {
@@ -148,11 +149,6 @@ header .social-icon {
   padding: 1em 2em;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-}
-
-.bottom-nav {
-  font-weight: normal;
-  font-size: .85em;
 }
 
 @media only screen and (min-width: 700px) {
@@ -170,7 +166,7 @@ header .social-icon {
     max-width: 425px;
   }
   .badge {
-    padding-top: 3em;
+    padding-top: 2em;
   }
 }
 
@@ -188,11 +184,14 @@ header .social-icon {
     color: #05C46B;
   }
   .item-container {
-    width: 300px;
-    padding: 2em 2em 0em 2em;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2em;
+  }
+  .bottom-nav {
+    font-weight: normal;
+    font-size: .75em;
   }
 }
 
@@ -226,7 +225,11 @@ header .social-icon {
     padding: 1em;
   }
   .badge {
-    padding-top: 5em;
+    padding-top: 4em;
+  }
+  .bottom-nav {
+    font-weight: normal;
+    font-size: .9em;
   }
 }
 /*# sourceMappingURL=main.css.map */
